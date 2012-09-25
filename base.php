@@ -15,7 +15,7 @@
   <div id="wrap" class="container" role="document">
     <div id="content" class="row">
       <div id="main" class="<?php roots_main_class(); ?>" role="main">
-        <img class="characters" src="/peruscrew/assets/img/characters.png">
+        <!-- <img class="characters" src="/peruscrew/assets/img/characters.png"> -->
         <?php include roots_template_path(); ?>
         </div>
       <?php if (roots_sidebar()) : ?>
