@@ -102,7 +102,6 @@ color:#333;
 background-color:#f1fffe;
 margin:0;
 }
-
 a {
 color:#FF8300;
 text-decoration:none;
@@ -111,19 +110,12 @@ text-decoration:none;
 a:hover {
 color:#fff;
 background: #FF8300;
-/*	-webkit-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-*/
+
 }
-
-/*HEADER IMAGE SHIT*/
-
-.characters {
-	display:block;
-}
-
 .img-polaroid {
 background-color:#fff;
 border:1px solid rgba(0,0,0,0.2);
@@ -2672,7 +2664,7 @@ padding-bottom:14px;
 }
 
 .nav {
-display: block;
+display: inline;
 margin-left:0;
 list-style:none;
 top:0;
@@ -2683,7 +2675,7 @@ li.menu-blog,.menu-team,.menu-shop,.menu-stockists,.menu-art,.menu-videos,.menu-
 	font-family: 'Droid Sans', sans-serif;
 	display: inline;
 	font-size: 18px;
-	padding: 0 50px 0 0; 
+	padding: 0 40px 0 0; 
 }
 #menu-primary-navigation {
 	margin-top: 55px;
@@ -2691,7 +2683,7 @@ li.menu-blog,.menu-team,.menu-shop,.menu-stockists,.menu-art,.menu-videos,.menu-
 
 .nav>li>a {
 	color: #1D1E23;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .nav>li>a:hover {
